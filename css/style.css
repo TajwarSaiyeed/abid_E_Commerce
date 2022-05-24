@@ -19,8 +19,9 @@
     color: #FF136F;
 }
 
-.buy_now_btn {
-    background-image: linear-gradient( to bottom, #FF5B9B 0%, #FF589B 100%);
+.buy_now_btn,
+.subscribe_btn {
+    background-image: linear-gradient( to bottom, #d65888 0%, #FF589B 100%);
     color: #fff;
     border: none;
     border-radius: 9px;
@@ -53,4 +54,27 @@
 
 .cat3 {
     background-image: linear-gradient(to left, #0000b1 0%, #5a5afd 100%);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border: none;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
 }
